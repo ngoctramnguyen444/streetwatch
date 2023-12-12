@@ -27,7 +27,7 @@ python scripts/collect_images.py
 ```
 ├── data/               <- Local data files only (do not commit)
 │
-├── notebooks/          <- Jupyter notebooks
+├── notebooks/          <- Jupyter notebooks for Fine Tuning DETR model
 │
 ├── scripts/            <- Python scripts to run in command line
 │
@@ -39,3 +39,9 @@ python scripts/collect_images.py
 │
 └── README.md           <- The top-level README for repo
 ```
+
+
+## Attribution
+
+- The notebook `detr_finetune.ipynb` for fine-tuning DETR was borrowed from the [woctezuma/finetune-detr](https://github.com/woctezuma/finetune-detr) repository.
+- The training data used in this project includes images collected from our collaboration repository ([Streetwatch Collaboration Repository](https://github.com/pdashk/streetwatch)). If you wish to access the complete training dataset, please refer to the collaboration repository, as this repository contains only the images I personally collected.
